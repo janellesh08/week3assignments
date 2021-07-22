@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("file:///Users/janelleshines/Desktop/week3_assignments/images/Screen%20Shot%202021-07-22%20at%202.15.29%20PM.png");
+    background-repeat: no-repeat;
+    background-size: 22%; */
+    ;
+}
+
+#top-ad{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo{
+    width: 20%;
+}
+
+#ad{
+    height: 80px;
+    width: auto;
+}
+
+.navbar{
+   border: slategray solid 1px;
+   border-radius: 5px;
+   margin: 10px 40px 10px 80px;
+   height: 40px;
+}
+
+#midbox{
+    background-color: lightgrey;
+    margin: 10px 40px 10px 80px;
+    padding: 10px;
+}
+
+#words{
+    margin: 10px 40px 10px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 810px){
+    #ad{
+        display: none;
+    }
+}
+
+@media(max-width: 990px){
+    .navbar{
+        border: none;
+        margin: 0;
+
+    }
+
+    .container-fluid{
+        background-color: white !important;
+    }
+}
